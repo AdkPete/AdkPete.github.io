@@ -10,10 +10,10 @@ h1 {
 p {
   font-family: times;
   font-size: 18px;
-  margin-top: 100px;
+  margin-top: 1em;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 100px;
+  margin-bottom: 1em;
 }
 
 object {
@@ -21,8 +21,47 @@ object {
   margin-right: 10%;
   width: 80%
 }
+
 .avatar {
   width: 100px;
   height: 120px;
   border-radius: 50%;
+}
+
+.centeravatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #0b2074;
+  color: #f2f2f2;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #083c29;
+  color: white;
 }
