@@ -109,3 +109,8 @@ object {
   background-color: #083c29;
   color: white;
 }
+
+video {
+  display: block;
+  margin: auto;
+}
