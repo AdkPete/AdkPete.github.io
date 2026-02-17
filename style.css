@@ -116,8 +116,8 @@ a:hover {
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #0b2074;
-  color: #f2f2f2;
+  background-color: #102c9f !important;
+  color: #f2f2f2 !important;
 }
 
 .topnav a:visited {
